@@ -1,7 +1,9 @@
 Q:- What is PHP (Hypertext pre-processor):-
-Ans:- PHP is an HTML-embedded, server-side scripting language designed for web development. It is also used as a general purpose programming language. It was created by Rasmus Lerdorf in 1994 and appeared in the market in 1995. Much of its syntax is borrowed from C, C++, and Java.
+Ans:- PHP is an HTML-embedded, server-side scripting language designed for web development. It is also used as a general purpose programming language. 
+It was created by Rasmus Lerdorf in 1994 and appeared in the market in 1995. Much of its syntax is borrowed from C, C++, and Java.
 
-PHP codes are simply mixed with HTML codes and can be used in combination with various web frameworks. Its scripts are executed on the server. PHP code is processed by a PHP interpreter.
+PHP codes are simply mixed with HTML codes and can be used in combination with various web frameworks. Its scripts are executed on the server. PHP code is 
+processed by a PHP interpreter.
 
 Basic syntax of php:-
 <?php
@@ -14,7 +16,8 @@ echo "Hello world!";
 
 Q:-What are the features of php? 
 
-Ans:- Performance: Because it hold it's own memory so the server workload and loading time is automoatically reduced which results in faster processing speed and better performance.PHP is exectued much faster then JSP and ASP.
+Ans:- Performance: Because it hold it's own memory so the server workload and loading time is automoatically reduced which results in faster processing speed and 
+better performance.PHP is exectued much faster then JSP and ASP.
 
 Open source:- It is freely available on web and anyone can easily download it's version's and components without paying any cost.
 
@@ -28,44 +31,56 @@ Error Reporting:- It generate and error or warning at runtime.
 
 Security:- PHP is a secure language to develop the website. It consists of multiple layers of security to prevent threads and malicious attacks.
 
-Control:- Different programming languages require long script or code, whereas PHP can do the same work in a few lines of code. It has maximum control over the websites like you can make changes easily whenever you want
+Control:- Different programming languages require long script or code, whereas PHP can do the same work in a few lines of code. It has maximum control over the 
+websites like you can make changes easily whenever you want
 
 Q:- Object oriented concepts of PHP.
 
-Class:- This is a user-defined data type, which includes local functions as well as local data or we can say, A  class is defined using the class keyword  followed  by  the  class name  and a set of curly braces that contain the class definition. class includes methods,local variables and etc.
+Class:- This is a user-defined data type, which includes local functions as well as local data or we can say, A  class is defined using the class keyword  followed  
+by  the  class name  and a set of curly braces that contain the class definition. class includes methods,local variables and etc.
 
-Object:- An object has been created using the new keyword. When an object is created, it inherits all the properties and methods of it's class and can have it's own unique values for those properties. 
+Object:- An object has been created using the new keyword. When an object is created, it inherits all the properties and methods of it's class and can have it's own 
+unique values for those properties. 
 
-Inheritance:- Inheritance is a feature of object-oriented programming (OOP) that allows a class to inherit properties and methods from another class, known as the parent or base class. The derived class, or child class, can then add or modify the inherited properties and methods as needed. 
+Inheritance:- Inheritance is a feature of object-oriented programming (OOP) that allows a class to inherit properties and methods from another class, known as the 
+parent or base class. The derived class, or child class, can then add or modify the inherited properties and methods as needed. 
 
 Parent class:- A class that is inherited from by another class. This is also called a base class or super class.
 
 Child Class:- A class that inherits from another class. This is also called a subclass or derived class.
 
-Polymorphism − This is an object oriented concept where same function can be used for different purposes. For example function name will remain same but it take different number of arguments and can do different task.
+Polymorphism − This is an object oriented concept where same function can be used for different purposes. For example function name will remain same but it take 
+different number of arguments and can do different task.
 
 Overloading:- There are two types of overloading in PHP: method overloading and property overloading.
 
-Method overloading:- Method overloading allows a class to have multiple methods with the same name but different parameters. When method is called,PHP will decide which method to execute based on the number and type of arguments passed to it.
+Method overloading:- Method overloading allows a class to have multiple methods with the same name but different parameters. When method is called,PHP will decide 
+which method to execute based on the number and type of arguments passed to it.
 
-Property overloading:- Property overloading allows a class to dynamically define properties at runtime. This means that you can access and manipulate properties that were not defined in the class definition.
+Property overloading:- Property overloading allows a class to dynamically define properties at runtime. This means that you can access and manipulate properties 
+that were not defined in the class definition.
 
 Data Abstraction :- Any representation of data in which the implementation details are hidden .
 
-Encapsulation:- It allows user to protect the internal state of an object from external inheritance.In PHP,encapsulation is achieved through the use of access modifiers.
+Encapsulation:- It allows user to protect the internal state of an object from external inheritance.In PHP,encapsulation is achieved through the use of access 
+modifiers.
 
 PHP has three access modifiers:
 
 Public: A public property or method can be accessed from anywhere, including outside the class.
 
-Private: A private property or method can only be accessed within the class where it is defined. Attempting to access a private property or method from outside the class will result in a fatal error.
+Private: A private property or method can only be accessed within the class where it is defined. Attempting to access a private property or method from outside the 
+class will result in a fatal error.
 
 Protected: A protected property or method can only be accessed within the class where it is defined, as well as any subclasses or child classes that inherit from it.
 
-Constructor:-  A constructor is a special method that is called automatically when an object is created from a class. The constructor method is defined using the __construct() function, and it can take parameters that are passed when the object is created.
+Constructor:-  A constructor is a special method that is called automatically when an object is created from a class. The constructor method is defined using the 
+__construct() function, and it can take parameters that are passed when the object is created.
 
 Destructor:- A destructor is a special type of function which will be called automatically whenever an object is deleted or goes out of scope.
 
 Q:- What is exception handling and error handling in PHP?
 
-Exceptions are used to handle runtime errors or unexpected conditions that occur during the execution of a script. Exceptions provide a way to catch and handle errors in a more structured and controlled way than traditional error handling methods, such as returning error codes or printing error messages.you can use the try-catch statement. The try block contains the code that might throw an exception, and the catch block is where the exception is caught and handled.
+Exceptions are used to handle runtime errors or unexpected conditions that occur during the execution of a script. Exceptions provide a way to catch and handle errors
+in a more structured and controlled way than traditional error handling methods, such as returning error codes or printing error messages.you can use the try-catch 
+statement. The try block contains the code that might throw an exception, and the catch block is where the exception is caught and handled.
